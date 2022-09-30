@@ -1,5 +1,21 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+}
+
+.cropped {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover;
+    border: 5px solid black;
+    }
+    
+.cropped img {
+    margin: -10px 0px 0px -180px;
+}
+
+.center{
+    text-align: center;
 }
 
 li{
@@ -13,10 +29,11 @@ img{
     margin: 0% 5%;
 }
 
-#container{
+.container{
     padding: 10%;
     padding-top: 0%;
     margin: 0% 20%;
+    background-color: burlywood;
 }
 
 #footer{
@@ -27,8 +44,12 @@ img{
 #pageColumn{
 }
 
+td{
+    padding: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
-    #container{
+    .container{
         padding: 10%;
         padding-top: 0%;
         margin: 0% 0%;
